@@ -1,0 +1,79 @@
+.body {
+  min-height:100vh;
+  width:100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.stop-pagescroll {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.color-picker-group input,
+.color-picker-group .dropdown-menu ul li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-indent: -1000px;
+  border: 0;
+  box-shadow: 0 1px 5px #cdcdcd;
+  -moz-box-shadow: 0 1px 5px #cdcdcd;
+  -webkit-box-shadow: 0 1px 5px #cdcdcd;
+}
+.color-picker-group input {
+  background: #0087ff;
+}
+
+.color-picker-group .dropdown-menu {
+  height: 200px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(185, 185, 185, 0.175);
+  -moz-box-shadow: 0 4px 6px rgba(185, 185, 185, 0.175);
+  -webkit-box-shadow: 0 4px 6px rgba(185, 185, 185, 0.175);
+  border: 1px solid rgba(97, 97, 97, 0.15);
+  margin: -5px 0 0;
+}
+
+.color-picker-group .dropdown-menu ul {
+  width: 90%;
+  margin: 0 0 0 12px;
+}
+
+.color-picker-group .dropdown-menu ul li {
+  margin: 5px 5px 5px 0;
+}
+
+.color-picker-group .dropdown-menu .mCSB_inside > .mCSB_container {
+  margin-right: 0 !important;
+}
+
+.color-picker-group .dropdown-menu .mCSB_scrollTools {
+  right: 0 !important;
+  margin: 5px 0;
+}
+
+.color-picker-group .dropdown-menu .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .color-picker-group .dropdown-menu .mCSB_scrollTools .mCSB_draggerRail {
+  width: 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.color-picker-group .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #000;
+}
+
+.color-picker-group .dropdown-menu .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+		background: #000;
+	}
+	.color-picker-group .dropdown-menu .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+	.color-picker-group .dropdown-menu .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+		background: #000;
+
+	}
