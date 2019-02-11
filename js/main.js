@@ -37,11 +37,11 @@ $(".color-picker-group .dropdown-menu").mCustomScrollbar({
 
   });
 
-  $(document).on('click', '.color-picker-group .dropdown-menu li', function(e){
+  $(document).on('click', '.color-picker-group .dropdown-menu li a', function(e){
     e.stopPropagation();
   });
 
-  $(document).on('click', '.color-picker-group .dropdown-menu li', function(){
+  $(document).on('click', '.color-picker-group .dropdown-menu li a', function(){
     var colorValue = $(this).attr('data-color');
     $('.color-picker-group input').css('background',colorValue);
 
