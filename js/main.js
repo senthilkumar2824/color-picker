@@ -28,7 +28,7 @@ $(".color-picker-group .dropdown-menu").mCustomScrollbar({
         var resArray = response;
 
         $.each(resArray, function(i, color){
-            $('.color-picker-group .dropdown-menu ul').append('<li class="list-inline-item" data-class="'+resArray[i].name+'" data-color="'+resArray[i].hexString+'"  style="background:'+resArray[i].hexString+'"></li>');
+            $('.color-picker-group .dropdown-menu ul').append('<li class="list-inline-item"><div class="box"><h4 class="font-medium">'+resArray[i].name+'</h4><a href="#" data-class="'+resArray[i].name+'" data-color="'+resArray[i].hexString+'"  style="background:'+resArray[i].hexString+'"></a></div></li>');
         });
 
       }

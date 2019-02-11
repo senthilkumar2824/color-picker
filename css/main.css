@@ -15,7 +15,7 @@ body {
 }
 
 .color-picker-group input,
-.color-picker-group .dropdown-menu ul li {
+.color-picker-group .dropdown-menu ul li a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -49,6 +49,15 @@ body {
   margin: 5px 5px 5px 0;
 }
 
+.color-picker-group .dropdown-menu ul li h4 {
+  margin: 0 0 10px 0;
+  font-size: 11px;
+}
+
+.color-picker-group .dropdown-menu ul li a {
+  display: inline-block;
+}
+
 .color-picker-group .dropdown-menu .mCSB_inside > .mCSB_container {
   margin-right: 0 !important;
 }
@@ -77,3 +86,16 @@ body {
 		background: #000;
 
 	}
+
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
